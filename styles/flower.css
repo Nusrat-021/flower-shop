@@ -141,25 +141,46 @@ body {
   gap: 180px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
-  padding: 100px ;
+  padding: 100px;
 }
 .sale-deal {
   width: 50%;
   text-align: center;
 }
-.sale-deal-description{
+.sale-deal-description {
   margin: 24px 0 32px 0;
 }
 
 /* instagram image section design */
-.instagram-images{
+.instagram-images {
   display: flex;
   justify-content: center;
   gap: 24px;
-
 }
-.instagram-images img{
-  width: 300px;
+.instagram-images img {
+  width: 280px;
+}
+/* subscription for latest deal section design */
+.subscription-container {
+  background: url("../flower-asset/Rectangle\ 9.png") no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 122px;
+  text-align: center;
+  border-radius: 8px;
+}
+.email-subscription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:16px;
+}
+input[type="email"] {
+  border: 0;
+  padding: 23px;
+  width: 50%;
+  border-radius: 8px;
+  background: #fff;
 }
 /* footer section */
 .footer {
