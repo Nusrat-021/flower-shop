@@ -70,7 +70,7 @@ body {
 .section {
   margin-top: 128px;
 }
-.section-content {
+.section-content{
   width: 600px;
   text-align: center;
   margin: 0 auto;
@@ -132,6 +132,32 @@ body {
   background: rgba(39, 39, 39, 0.05);
   padding: 80px 175px;
   text-align: center;
+}
+/* popular occasion section */
+.popular-occasions{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:24px;
+  
+}
+.occasion-title{
+  text-align: center;
+  /* margin-bottom: 50px; */
+}
+.occasion-description{
+  text-align: center;
+}
+.popular-occasion{
+  box-shadow: 0px 5px 50px 0 #ebe9e9;
+  margin-top: 50px;
+  padding: 10px;
+}
+.popular-occasion:hover{
+  background-color: #ebe9e9;
+}
+.popular-occasion img{
+  width: 400px;
 }
 /* sale deal section design */
 .sale-deal-container {
