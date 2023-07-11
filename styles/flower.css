@@ -133,6 +133,24 @@ body {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   padding: 80px 175px;
+  text-align: center;
+}
+/* sale deal section design */
+.sale-deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 180px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px ;
+}
+.sale-deal {
+  width: 50%;
+  text-align: center;
+}
+.sale-deal-description{
+  margin: 24px 0 32px 0;
 }
 /* footer section */
 .footer {
