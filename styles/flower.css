@@ -150,6 +150,17 @@ body {
 .sale-deal-description{
   margin: 24px 0 32px 0;
 }
+
+/* instagram image section design */
+.instagram-images{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+}
+.instagram-images img{
+  width: 300px;
+}
 /* footer section */
 .footer {
   margin-top: 130px;
