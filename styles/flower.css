@@ -2,13 +2,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;600;700;800&display=swap");
 
 /* common styles for flower shop website */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Lato", sans-serif;
 }
 
+.header {
+  background: rgba(229, 84, 115, 0.1);
+}
 
+.banner-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding:50px 100px 0 200px;
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 32px 0;
+}
+.banner-image{
+    width: 550px;
+}
+.primary-button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 42px;
+}
