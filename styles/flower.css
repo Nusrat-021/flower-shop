@@ -30,6 +30,10 @@ body {
   padding: 20px 42px;
 }
 
+/* primary color of website */
+.primary-color {
+  color: #e55473;
+}
 /* background color for header */
 .header {
   background: rgba(229, 84, 115, 0.1);
@@ -44,8 +48,8 @@ body {
 }
 
 /* banner description */
-.banner-description{
-    margin: 32px 0;
+.banner-description {
+  margin: 32px 0;
 }
 
 /* title of banner */
@@ -60,3 +64,21 @@ body {
 }
 
 /* footer section */
+.footer {
+  margin-top: 130px;
+  background: #111010;
+  color: #fff;
+  text-align: center;
+  padding: 130px 0;
+}
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-description{
+    color:#fff;
+    margin: 24px 0 32px 0;
+}
+.footer-copyright-notice{
+    color: rgba(255, 255, 255, 0.40);
+}
